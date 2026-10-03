@@ -1,1 +1,220 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Talha | Personal Website</title>
+  <meta name="description" content="Official personal website of Talha, a student.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #0b0b0f;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px;
+      background:
+        radial-gradient(circle at top, #243b55, #0b0b0f 55%);
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .profile {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #ffffff;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 55px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #bdbdbd;
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      margin: 7px;
+      border-radius: 30px;
+      text-decoration: none;
+      color: white;
+      background: #1877f2;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.85;
+    }
+
+    section {
+      padding: 70px 25px;
+    }
+
+    .card {
+      max-width: 800px;
+      margin: auto;
+      background: #15151c;
+      padding: 35px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .info {
+      margin: 12px 0;
+      font-size: 18px;
+    }
+
+    .social {
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #08080b;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 40px;
+      }
+
+      .profile {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HOME -->
+  <header>
+    <div class="container">
+
+      <!-- নিজের ছবি দিতে চাইলে নিচের URL পরিবর্তন করো -->
+      <img
+        src="https://via.placeholder.com/300"
+        alt="Talha"
+        class="profile"
+      >
+
+      <h1>Talha</h1>
+
+      <p class="subtitle">
+        Student • Creator • Learner
+      </p>
+
+      <a href="#about" class="btn">About Me</a>
+      <a href="#contact" class="btn">Contact</a>
+
+    </div>
+  </header>
+
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="card">
+
+      <h2>About Me</h2>
+
+      <p>
+        Hello! I am Talha. I am a student and I am interested
+        in learning new things, technology, creativity and
+        building my online presence.
+      </p>
+
+      <br>
+
+      <div class="info">
+        <strong>Name:</strong> Talha
+      </div>
+
+      <div class="info">
+        <strong>Age:</strong> 20
+      </div>
+
+      <div class="info">
+        <strong>Occupation:</strong> Student
+      </div>
+
+      <div class="info">
+        <strong>Country:</strong> Bangladesh
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SOCIAL -->
+  <section id="contact">
+    <div class="card">
+
+      <h2>Find Me Online</h2>
+
+      <div class="social">
+
+        <a
+          href="https://www.facebook.com/ta.l.ha.842468"
+          class="btn"
+          target="_blank">
+          Facebook
+        </a>
+
+        <a
+          href="https://www.instagram.com/hallo__kid.0_o"
+          class="btn"
+          target="_blank">
+          Instagram
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 Talha. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
